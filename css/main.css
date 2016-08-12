@@ -1,0 +1,64 @@
+body {
+	font-family: 'Open Sans';
+}
+.logo {
+	width: 200px;
+	margin-top: 20px;
+}
+.menu a {
+	text-decoration:none;
+	color: #9399A0;
+	padding: 20px;
+	font-size: 15px;
+}
+.menu {
+	margin-top: 25px;
+}
+.cuerpo {
+	background:#808080;
+	color: white;
+	padding-top: 55px;
+}
+.cuerpo h1 {
+	font-size: 60px;
+}
+.cuerpo p {
+	font-size: 15px;
+	margin: 35px 0px;
+}
+.cuadro {
+	background:#9A9A9A;
+	border-radius: 10px;
+	padding: 14px;
+	text-align: center;
+}
+.cuadro h3 {
+	text-align: center;
+}
+.subscribe {
+	display: inline-block;
+}
+.boton	a{
+	text-decoration: none;
+	color: white;
+	background:#3EB0F7;
+	text-align: center;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+input {
+	padding: 4px;
+	width: 95%;
+	margin:5px;
+}
+footer {
+	padding: 10px;
+}
+@media (max-width: 535px){
+	section .contenido {
+		width: 100%;
+	}
+	header .cabecera {
+		margin-top: 20px;
+	}
+}
